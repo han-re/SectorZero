@@ -1,0 +1,104 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+config.local.json
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# VSCode / JetBrains
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Splunk
+# =========================
+splunk-enterprise/
+splunk/
+*.spl
+*.tsidx
+*.journal.gz
+
+# Local Splunk runtime data
+var/
+dispatch/
+
+# =========================
+# Demo / Cache Data
+# =========================
+demo-data/cache/
+demo-data/raw/
+demo-data/replays/
+
+# Large telemetry dumps
+*.jsonl
+*.csv
+
+# Keep placeholder dirs
+!demo-data/.gitkeep
+
+# =========================
+# Node (if frontend/UI added later)
+# =========================
+node_modules/
+
+# =========================
+# Docker
+# =========================
+.docker/
+docker-compose.override.yml
+
+# =========================
+# OS Temp Files
+# =========================
+Thumbs.db
+*.swp
+*.tmp
+
+# =========================
+# Coverage / Testing
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
