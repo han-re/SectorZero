@@ -71,6 +71,14 @@ demo-data/cache/
 demo-data/raw/
 demo-data/replays/
 
+# Cached race data dumps (incl. _manifest.json) - do not commit
+ingestion/demo-data/
+
+# =========================
+# OMC tooling / agent state
+# =========================
+.omc/
+
 # Large telemetry dumps
 *.jsonl
 *.csv
